@@ -20,6 +20,7 @@ function createWindow () {
     y: mainWindowState.y,
     width: mainWindowState.width,
     height: mainWindowState.height,
+    titleBarStyle: 'hidden',
     title: app.getName(),
     icon: path.join(__dirname, '/icons/png/512.png')
   }
